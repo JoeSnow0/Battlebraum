@@ -83,9 +83,10 @@ MonoBehaviour:
   maxJumpHeight: 4
   minJumpHeight: 1
   timeToJumpApex: 0.4
+  moveSpeed: 6
   wallJumpClimb: {x: 0, y: 0}
   wallJumpOff: {x: 0, y: 0}
-  wallLeap: {x: 0, y: 0}
+  wallLeap: {x: 5, y: 20}
   wallSlideSpeedMax: 3
   wallStickTime: 0.25
 --- !u!114 &114421069756201466
@@ -112,13 +113,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   horizontalRayCount: 0
   verticalRayCount: 0
   horizontalRaySpacing: 0
   verticalRaySpacing: 0
   collider: {fileID: 0}
-  maxSlopeAngle: 80
+  maxSlopeAngle: 45
   playerInput: {x: 0, y: 0}
 --- !u!212 &212876062850022886
 SpriteRenderer:
